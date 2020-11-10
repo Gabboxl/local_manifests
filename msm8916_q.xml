@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Samsung MSM8916 common repos -->
+  <project path="device/samsung/msm8916-common" name="Gabboxl/android_device_samsung_msm8916-common" remote="github" revision="lineage-17.1"/>
+  <project path="kernel/samsung/msm8916" name="Gabboxl/android_kernel_samsung_msm8916" remote="github" revision="ten"/>
+  <project path="vendor/samsung" name="Gabboxl/proprietary_vendor_samsung" remote="github" revision="lineage-17.1"/>
+
+  <!-- LineageOS repos -->
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-17.1"/>
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-17.1"/>
+
+  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
+  <project path="hardware/qcom-caf/msm8916/audio" name="Galaxy-MSM8916/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-17.1-caf-msm8916" />
+
+  <remove-project name="LineageOS/android_packages_apps_Settings"/>
+  <project path="packages/apps/Settings" name="Gabboxl/android_packages_apps_Settings" groups="pdk-fs" remote="github" revision="lineage-17.1"/>
+
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-17.1"/>
+
+  <!-- Grand Prime specified trees -->
+  <project path="device/samsung/gprimelte-common" name="Gabboxl/android_device_samsung_gprimelte-common" remote="github" revision="lineage-17.1"/>
+  <project path="device/samsung/gprimeltexx" name="Gabboxl/android_device_samsung_gprimeltexx" remote="github" revision="lineage-17.1"/>
+
+</manifest>
