@@ -16,12 +16,13 @@
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-18.1"/>
   
 
-  <!-- Grand Prime specified trees -->
+  <!-- Grand Prime specific trees -->
   <project path="device/samsung/gprimelte-common" name="Gabboxl/android_device_samsung_gprimelte-common" remote="github" revision="lineage-18.1"/>
 
-
   <project path="device/samsung/gprimeltexx" name="Gabboxl/android_device_samsung_gprimeltexx" remote="github" revision="lineage-18.1"/>
-
-
-
+  <project path="device/samsung/fortuna3g" name="Gabboxl/android_device_samsung_fortuna3g" remote="github" revision="lineage-18.1"/>
+  <project path="device/samsung/fortunave3g" name="Gabboxl/android_device_samsung_fortunave3g" remote="github" revision="lineage-18.1"/>
+  <project path="device/samsung/fortunalteub" name="Gabboxl/android_device_samsung_fortunalteub" remote="github" revision="lineage-18.1"/>
+  <project path="device/samsung/gprimelte" name="Gabboxl/android_device_samsung_gprimelte" remote="github" revision="lineage-18.1"/>
+  
 </manifest>
