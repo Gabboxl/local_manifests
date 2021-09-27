@@ -30,4 +30,6 @@
   <project path="device/samsung/fortunalteub" name="Gabboxl/android_device_samsung_fortunalteub" remote="github" revision="lineage-18.1"/>
   <project path="device/samsung/gprimelte" name="Gabboxl/android_device_samsung_gprimelte" remote="github" revision="lineage-18.1"/>
   <project path="device/samsung/fortuna3gdtv" name="Gabboxl/android_device_samsung_fortuna3gdtv" remote="github" revision="lineage-18.1"/>
+  <project path="device/samsung/gprimeltetfnvzw" name="Gabboxl/android_device_samsung_gprimeltetfnvzw" remote="github" revision="lineage-18.1"/>
+  <project path="device/samsung/gprimelteusc" name="Gabboxl/android_device_samsung_gprimelteusc" remote="github" revision="lineage-18.1"/>
 </manifest>
