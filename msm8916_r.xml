@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- TWRP source code -->
+<!--  <project path="bootable/recovery-twrp" name="TeamWin/android_bootable_recovery" remote="github" revision="android-11"/> -->
+
   <!-- Samsung MSM8916 common repos -->
   <project path="device/samsung/msm8916-common" name="Gabboxl/android_device_samsung_msm8916-common" remote="github" revision="lineage-18.1"/>
   <project path="kernel/samsung/msm8916" name="Gabboxl/android_kernel_samsung_msm8916" remote="github" revision="lineage-18.1"/>
@@ -32,4 +35,5 @@
   <project path="device/samsung/fortuna3gdtv" name="Gabboxl/android_device_samsung_fortuna3gdtv" remote="github" revision="lineage-18.1"/>
   <project path="device/samsung/gprimeltetfnvzw" name="Gabboxl/android_device_samsung_gprimeltetfnvzw" remote="github" revision="lineage-18.1"/>
   <project path="device/samsung/gprimelteusc" name="Gabboxl/android_device_samsung_gprimelteusc" remote="github" revision="lineage-18.1"/>
+  <project path="device/samsung/fortunaltedx" name="Gabboxl/android_device_samsung_fortunaltedx" remote="github" revision="lineage-18.1"/>
 </manifest>
