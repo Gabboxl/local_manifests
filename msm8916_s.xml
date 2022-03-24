@@ -13,13 +13,25 @@
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-19.1"/>
 
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-19.0-caf-msm8916" />
 
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-19.1"/>
 
   <!-- safetynet fix -->
 <!--  <remove-project name="platform/system/security"/>
   <project path="system/security" name="Gabboxl/android_system_security" groups="pdk" remote="github" revision="rvc" /> -->
+  
+  
+  
+  <project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" revision="lineage-18.1-caf" />
+  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
+  <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.0-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-msm8916" />
+  
+  
+  <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" revision="lineage-16.0" />
+  
+  
 
   <!-- GcamGo package -->
   <project path="packages/apps/GcamGo" name="Gabboxl/android_packages_apps_GcamGo" remote="github" />
@@ -28,7 +40,7 @@
   <project path="device/samsung/gprimelte-common" name="Gabboxl/android_device_samsung_gprimelte-common" remote="github" revision="lineage-19.1"/>
 
   <project path="device/samsung/gprimeltexx" name="Gabboxl/android_device_samsung_gprimeltexx" remote="github" revision="lineage-19.1"/>
-
+  
   <!-- Temp disable unsupported variants
   <project path="device/samsung/fortuna3g" name="Gabboxl/android_device_samsung_fortuna3g" remote="github" revision="lineage-19.0"/>
   <project path="device/samsung/fortunave3g" name="Gabboxl/android_device_samsung_fortunave3g" remote="github" revision="lineage-19.0"/>
