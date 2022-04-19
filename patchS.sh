@@ -48,6 +48,9 @@ function apply_patch {
 # android_build_soong
 repopick -f 327111
 
+#libbfqio fix
+repopick -f 328873
+
 # Ultra Legacy
 repopick -P art -f 318097
 repopick -P external/perfetto -f 287706
